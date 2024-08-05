@@ -1,8 +1,8 @@
 {
   "packageRules": [
     {
-    "matchUpdateTypes": "minor",
-    "groupName": "minor updates"
+    "matchDepTypes": ["packageManager", "dependencies"],
+    "groupName": "group updates"
   }
   ]
 }
